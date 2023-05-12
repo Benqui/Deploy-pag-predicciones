@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.body {
+    background-color: #0B2447;
+}
+
+.container {
+    background-color: #19376D;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 110vh;
+}
+
+.container-card {
+    background-color: darkcyan;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    height: 700px;
+    position: relative;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="number"] {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+input[type="submit"] {
+    background-color: -webkit-linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
+    padding: 10px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+
+/* input[type="submit"]:hover {
+	background-color: #3e8e41;
+} */
+
+#vehiculos {
+    margin-top: 20px;
+}
+
+.back-button {
+    font-size: 20px;
+    padding: 5px 10px;
+}
+
+.add-button:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+}
